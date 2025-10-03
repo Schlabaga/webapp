@@ -1,9 +1,0 @@
-name: Linting, Testing, Building
-on: push
-
-jobs:
-    Hello:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Print Hello
-        run: echo "Hello CLI"
